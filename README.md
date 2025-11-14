@@ -6,6 +6,7 @@
 
 ## Description
 AI-Powered system that generates **personalized nutritional plans** based on patient data. Optimizes diets using AI algorithms and provides PDF reports for easy access.
+Development of an AI-Powered Nutritional Regimen. Integrated OpenAI API for intelligent meal recommendations, automated workflow orchestration using n8n, and designed backend services with FastAPI connected to a PostgreSQL database. Conducted data preprocessing, model testing, and ensured seamless API responses for PDF report generation
 
 ## Features
 - Personalized diet plan generation
