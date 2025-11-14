@@ -5,14 +5,13 @@
 [![Docker](https://img.shields.io/badge/docker-yes-blue?logo=docker)](https://www.docker.com/)
 
 ## Description
-AI-Powered system that generates **personalized nutritional plans** based on patient data. Optimizes diets using AI algorithms and provides PDF reports for easy access.
-Development of an AI-Powered Nutritional Regimen. Integrated OpenAI API for intelligent meal recommendations, automated workflow orchestration using n8n, and designed backend services with FastAPI connected to a PostgreSQL database. Conducted data preprocessing, model testing, and ensured seamless API responses for PDF report generation
+Development of an **AI-Powered Nutritional Regimen**. Integrated OpenAI API for intelligent meal recommendations, automated workflow orchestration using n8n, and backend services designed with FastAPI connected to PostgreSQL. Includes data preprocessing, model testing, and seamless API responses for PDF report generation.
 
 ## Features
-- Personalized diet plan generation
-- PDF export of meal plans
-- SQL-based data storage
-- Dockerized for easy deployment
+- Personalized meal plan generation using AI
+- Workflow automation with n8n
+- FastAPI backend connected to PostgreSQL
+- PDF export of generated diets
 
 ## Installation
 ```bash
@@ -24,5 +23,4 @@ venv\Scripts\activate
 # Linux / MacOS
 source venv/bin/activate
 pip install -r requirements.txt
-## Usage
-python api/app/main.py
+--> python api/app/main.py
